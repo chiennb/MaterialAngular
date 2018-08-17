@@ -7,6 +7,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatListModule} from '@angular/material/list';
 import {MatNativeDateModule} from '@angular/material';
 
 
@@ -20,7 +22,9 @@ import {MatNativeDateModule} from '@angular/material';
     MatCheckboxModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatToolbarModule,
+    MatListModule
   ],
   exports: [
     MatButtonModule,
@@ -30,7 +34,9 @@ import {MatNativeDateModule} from '@angular/material';
     MatCheckboxModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatToolbarModule,
+    MatListModule
   ]
 })
 export class MaterialModule { }
